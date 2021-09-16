@@ -3,9 +3,7 @@ import Head from 'next/head'
 // import Image from 'next/image'
 import Navbar from '../components/Navbar'
 
-
-
-const Home: NextPage = () => {
+const Shop: NextPage = () => {
   return (
     <div>
       <Head>
@@ -20,4 +18,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Shop;
