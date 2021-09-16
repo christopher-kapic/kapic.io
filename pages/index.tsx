@@ -17,6 +17,7 @@ import netlify_logo from '../public/tools/netlify.png'
 import firebase_logo from '../public/tools/firebase.png'
 import supabase_logo from '../public/tools/supabase.png'
 import vultr_logo from '../public/tools/vultr.png'
+import reactbootstrap_logo from '../public/tools/react-bootstrap.svg'
 
 
 
@@ -45,39 +46,42 @@ const Home: NextPage = () => {
             <Image src={react_logo} alt="React" layout="fixed" height={108} width={121}/>
           </div>
           <div className={styles.tool}>
-            <Image src={node_logo} alt="React" layout="fixed" height={108} width={98}/>
+            <Image src={reactbootstrap_logo} alt="React-Bootstrap" layout="fixed" height={108} width={113}/>
           </div>
           <div className={styles.tool}>
-            <Image src={typescript_logo} alt="React" layout="fixed" height={108} width={108}/>
+            <Image src={typescript_logo} alt="Typescript" layout="fixed" height={108} width={108}/>
           </div>
           <div className={styles.tool}>
-            <Image src={python_logo} alt="React" layout="fixed" height={108} width={108}/>
+            <Image src={node_logo} alt="NodeJS" layout="fixed" height={108} width={98}/>
           </div>
           <div className={styles.tool}>
-            <Image src={postgres_logo} alt="React" layout="fixed" height={108} width={108}/>
+            <Image src={postgres_logo} alt="PostgreSQL" layout="fixed" height={108} width={108}/>
           </div>
           <div className={styles.tool}>
-            <Image src={redis_logo} alt="React" layout="fixed" height={108} width={126}/>
+            <Image src={redis_logo} alt="Redis" layout="fixed" height={108} width={126}/>
           </div>
           <div className={styles.tool}>
-            <Image src={netlify_logo} alt="React" layout="fixed" height={108} width={108}/>
+            <Image src={python_logo} alt="Python" layout="fixed" height={108} width={108}/>
           </div>
           <div className={styles.tool}>
-            <Image src={firebase_logo} alt="React" layout="fixed" height={108} width={79}/>
+            <Image src={netlify_logo} alt="Netlify" layout="fixed" height={108} width={108}/>
           </div>
           <div className={styles.tool}>
-            <Image src={supabase_logo} alt="React" layout="fixed" height={108} width={108}/>
+            <Image src={firebase_logo} alt="Firebase" layout="fixed" height={108} width={79}/>
           </div>
           <div className={styles.tool}>
-            <Image src={vultr_logo} alt="React" layout="fixed" height={108} width={108}/>
+            <Image src={vultr_logo} alt="Vultr" layout="fixed" height={108} width={108}/>
+          </div>
+          <div className={styles.tool}>
+            <Image src={supabase_logo} alt="Supabase" layout="fixed" height={108} width={108}/>
           </div>
         </div>
       </div>
       <Particles 
         id="tsparticles"
         url="/particles.json"
-        init={() => console.log('hi')}
-        loaded={() => console.log('hi2')}
+        init={() => console.log('Initializing particles...')}
+        loaded={() => console.log('Particles loaded.')}
         className={styles.particleswrapper}
         canvasClassName={styles.particles}
       />
