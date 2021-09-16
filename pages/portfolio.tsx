@@ -22,8 +22,9 @@ const Portfolio: NextPage = () => {
           <Image src={profilePic} alt="Picture of Christopher Kapic" height={256} width={256}/>
         </div>
         <h1>Christopher Kapic</h1>
-        <h4>Web Developer • Student • Drone Pilot</h4>
-        <p>Hi, I'm Christopher, a student at Northwestern University ('21, graduating in December). To get to know me, I encourage you to explore my website or check out my <a href="https://blog.kapic.io">blog</a>.</p>
+        <h4>Portfolio</h4>
+        <p>Coming soon...</p>
+        
       </div>
 
       
