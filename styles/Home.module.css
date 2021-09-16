@@ -47,9 +47,4 @@
   .hero {
     padding: 12px;
   }
-
-  .toolset {
-    overflow-y: scroll;
-    flex-direction: column;
-  }
 }
