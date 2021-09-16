@@ -39,7 +39,7 @@ const Home: NextPage = () => {
         </div>
         <h1 style={{zIndex: 2}}>Christopher Kapic</h1>
         <h4 style={{zIndex: 2}}>Web Developer • Student • Drone Pilot</h4>
-        <p style={{zIndex: 2}}>Hi, I'm Christopher, a student at Northwestern University ('21, graduating in December). To get to know me, I encourage you to explore my website or check out my <a href="https://blog.kapic.io">blog</a>.</p>
+        <p style={{zIndex: 2}}>Hi, I'm Christopher, a student at Northwestern University ('21, graduating in December). To get to know me, I encourage you to explore my website or check out my <a href="https://blog.kapic.io">blog</a> or my <a href="https://cdn.jsdelivr.net/gh/christopher-kapic/christopher-kapic/resumes/resume%5B1%5D.pdf">resume</a>.</p>
         <h5 style={{zIndex: 2}}>My toolset:</h5>
         <div className={styles.toolset}>
           <div className={styles.tool}>
