@@ -1,15 +1,55 @@
 .hero {
   height: calc(100vh - 56px);
-  background-color: #e4e4e4;
   width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: left;
   padding: 40px 100px 0px 100px;
+  color: #eee;
+}
+
+.particleswrapper {
+  height: calc(100vh - 56px);
+  width: 100vw;
+  background-color: rgb(19, 19, 26);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.particles {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(19, 19, 26);
+}
+
+.toolset {
+  /* style={{width: "100%", backgroundColor: "#212529", height: 128, zIndex: 2, borderRadius: 8, overflowX: "scroll"}} */
+  width: 100%;
+  height: 128px;
+  background-color: #212529;
+  z-index: 2;
+  border-radius: 8px;
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 4px 10px 4px;
+}
+
+.tool {
+  height: 106px;
+  max-height: 106px;
+  padding: 0px 4px 0px 4px;
 }
 
 @media (max-width: 600px) {
   .hero {
     padding: 12px;
+  }
+
+  .toolset {
+    overflow-y: scroll;
+    flex-direction: column;
   }
 }
