@@ -8,6 +8,13 @@
   color: #eee;
 }
 
+.profile_pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 150;
+  z-index: 2;
+}
+
 .particleswrapper {
   height: calc(100vh - 56px);
   width: 100vw;
@@ -46,5 +53,12 @@
 @media (max-width: 600px) {
   .hero {
     padding: 12px;
+  }
+
+  .profile_pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    z-index: 2;
   }
 }

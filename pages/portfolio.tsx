@@ -18,7 +18,7 @@ const Portfolio: NextPage = () => {
       <Navbar/>
 
       <div className={styles.hero}> {/* Hero Section */}
-        <div style={{width: 256, height: 256}}>
+        <div style={{width: 256, height: 270, paddingBottom: 14, minHeight: 270}}>
           <Image src={profilePic} alt="Picture of Christopher Kapic" height={256} width={256}/>
         </div>
         <h1>Christopher Kapic</h1>
