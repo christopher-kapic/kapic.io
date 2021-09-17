@@ -1,0 +1,8 @@
+.wrapper {
+    background-color: rgb(19, 19, 26);
+}
+
+.portfolio {
+    padding: 40px 100px 40px 100px;
+    min-height: calc(100vh - 56px);
+}
